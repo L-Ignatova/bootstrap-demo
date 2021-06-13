@@ -1,0 +1,23 @@
+$theme-colors: (
+    "primary": #00FE5E,
+    "danger": #C22B47,
+    "secondary": #896597,
+    "light": #DBC5D7,
+    "dark": #160D27
+);
+
+$border-radius: 10rem;
+$font-size-lg: 2rem;
+$carousel-caption-padding-y: 2rem;
+$carousel-caption-width: 100%;
+
+@import "node_modules/bootstrap/scss/bootstrap";
+
+.main-form {
+    width: 450px;
+    margin: auto;
+}
+
+.carousel-caption {
+    background-color: rgba(2, 35, 28, 0.5);
+}
