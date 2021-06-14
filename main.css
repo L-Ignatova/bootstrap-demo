@@ -4655,7 +4655,7 @@ fieldset:disabled .btn {
   background-color: #fff;
   background-clip: border-box;
   border: 1px solid rgba(0, 0, 0, 0.125);
-  border-radius: 10rem;
+  border-radius: 2rem;
 }
 
 .card > hr {
@@ -4670,14 +4670,14 @@ fieldset:disabled .btn {
 
 .card > .list-group:first-child {
   border-top-width: 0;
-  border-top-left-radius: calc(10rem - 1px);
-  border-top-right-radius: calc(10rem - 1px);
+  border-top-left-radius: calc(2rem - 1px);
+  border-top-right-radius: calc(2rem - 1px);
 }
 
 .card > .list-group:last-child {
   border-bottom-width: 0;
-  border-bottom-right-radius: calc(10rem - 1px);
-  border-bottom-left-radius: calc(10rem - 1px);
+  border-bottom-right-radius: calc(2rem - 1px);
+  border-bottom-left-radius: calc(2rem - 1px);
 }
 
 .card > .card-header + .list-group,
@@ -4721,7 +4721,7 @@ fieldset:disabled .btn {
 }
 
 .card-header:first-child {
-  border-radius: calc(10rem - 1px) calc(10rem - 1px) 0 0;
+  border-radius: calc(2rem - 1px) calc(2rem - 1px) 0 0;
 }
 
 .card-footer {
@@ -4731,7 +4731,7 @@ fieldset:disabled .btn {
 }
 
 .card-footer:last-child {
-  border-radius: 0 0 calc(10rem - 1px) calc(10rem - 1px);
+  border-radius: 0 0 calc(2rem - 1px) calc(2rem - 1px);
 }
 
 .card-header-tabs {
@@ -4753,7 +4753,7 @@ fieldset:disabled .btn {
   bottom: 0;
   left: 0;
   padding: 1rem;
-  border-radius: calc(10rem - 1px);
+  border-radius: calc(2rem - 1px);
 }
 
 .card-img,
@@ -4764,14 +4764,14 @@ fieldset:disabled .btn {
 
 .card-img,
 .card-img-top {
-  border-top-left-radius: calc(10rem - 1px);
-  border-top-right-radius: calc(10rem - 1px);
+  border-top-left-radius: calc(2rem - 1px);
+  border-top-right-radius: calc(2rem - 1px);
 }
 
 .card-img,
 .card-img-bottom {
-  border-bottom-right-radius: calc(10rem - 1px);
-  border-bottom-left-radius: calc(10rem - 1px);
+  border-bottom-right-radius: calc(2rem - 1px);
+  border-bottom-left-radius: calc(2rem - 1px);
 }
 
 .card-group > .card {
