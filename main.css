@@ -11158,4 +11158,8 @@ fieldset:disabled .btn {
 .carousel-caption {
   background-color: rgba(2, 35, 28, 0.5);
 }
+
+body {
+  position: relative;
+}
 /*# sourceMappingURL=main.css.map */
