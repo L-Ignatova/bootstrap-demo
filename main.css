@@ -55,7 +55,7 @@ body {
 
 hr {
   margin: 1rem 0;
-  color: inherit;
+  color: #DBC5D7;
   background-color: currentColor;
   border: 0;
   opacity: 0.25;
@@ -11161,5 +11161,22 @@ fieldset:disabled .btn {
 
 body {
   position: relative;
+}
+
+img.product-image {
+  -webkit-transition: -webkit-transform 0.2s;
+  transition: -webkit-transform 0.2s;
+  transition: transform 0.2s;
+  transition: transform 0.2s, -webkit-transform 0.2s;
+}
+
+img.product-image:hover {
+  cursor: pointer;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+hr {
+  margin: 0;
 }
 /*# sourceMappingURL=main.css.map */

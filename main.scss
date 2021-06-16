@@ -11,6 +11,7 @@ $font-size-lg: 2rem;
 $carousel-caption-padding-y: 2rem;
 $carousel-caption-width: 100%;
 $card-border-radius: 2rem;
+$hr-color: #DBC5D7;
 
 @import "node_modules/bootstrap/scss/bootstrap";
 
@@ -25,4 +26,15 @@ $card-border-radius: 2rem;
 
 body {
     position: relative;
+}
+
+img.product-image {
+    transition: transform 0.2s;
+}
+img.product-image:hover {
+    cursor:pointer;
+    transform: scale(1.1);
+}
+hr{
+    margin: 0;
 }
